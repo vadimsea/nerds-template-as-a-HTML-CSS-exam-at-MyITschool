@@ -1,0 +1,179 @@
+@media only screen and (max-width: 768px) {
+    .top__logo {
+        flex-direction: column;
+    }
+  }
+
+  @media only screen and (max-width: 768px) {
+    .navig ul li {
+        display: block;
+        padding: 22px 0px;
+    }
+  }
+
+  @media only screen and (max-width: 768px) {
+    .menu a {
+        font-size: 20pt;
+    }
+  }
+
+  @media only screen and (max-width: 768px) {
+    .navig {
+        margin-top: 60px;
+        text-align: center;
+    }
+  }
+
+  @media only screen and (max-width: 768px) {
+    .fa {
+        display: none;
+    }
+  }
+
+  @media only screen and (max-width: 768px) {
+    .basket {
+        margin-top: 34px;
+    }
+  }
+
+  @media only screen and (max-width: 768px) {
+    .about {
+        flex-direction: column;
+        padding: 0 20px;
+        margin: 50px 0px;
+    }
+  }
+
+  @media only screen and (max-width: 768px) {
+    .three {
+        grid-template-columns: 100%;
+    }
+  }
+
+  @media only screen and (max-width: 768px) {
+    .footer {
+        flex-direction: column;
+        width: 100%;
+    }
+  }
+
+  @media only screen and (max-width: 768px) {
+    .logos {
+        flex-direction: column;
+        margin-bottom: 40px;
+    }
+  }
+
+  @media only screen and (max-width: 768px) {
+    .header__content {
+        flex-direction: column;
+    }
+  }
+
+  @media only screen and (max-width: 768px) {
+    .header__text {
+        text-align: center;
+        margin-top: 60px;
+    }
+  }
+
+  @media only screen and (max-width: 768px) {
+    .header__image {
+        margin-top: 65px;
+    }
+  }
+
+  @media only screen and (max-width: 768px) {
+    .header__text h1 {
+        font-size: 30pt;
+        padding: 0 20px;
+    }
+  }
+
+  @media only screen and (max-width: 768px) {
+    .three img {
+        width: 100%;
+    }
+  }
+
+  @media only screen and (max-width: 768px) {
+    .three h4 {
+        text-align: center;
+        font-size: 18pt;
+    }
+  }
+
+  @media only screen and (max-width: 768px) {
+    .three span {
+        width: 100%;
+        text-align: center;
+        font-size: 13pt;
+    }
+  }
+
+  @media only screen and (max-width: 768px) {
+    .three a {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+  }
+
+  @media only screen and (max-width: 768px) {
+    .we__are h2 {
+        text-align: center;
+        font-size: 28px;
+    }
+  }
+
+  @media only screen and (max-width: 768px) {
+    .we__are h2 {
+        padding: 0 20px;
+    }
+  }
+
+  @media only screen and (max-width: 768px) {
+    .about__right {
+        padding: 0 20px;
+        margin-top: 36px;
+    }
+  }
+
+  @media only screen and (max-width: 768px) {
+    .friendship {
+        text-align: center;
+    }
+  }
+
+  @media only screen and (max-width: 768px) {
+    .hr__style {
+        display: none;
+    }
+  }
+
+  @media only screen and (max-width: 768px) {
+    .logos__dash__right::after {
+        display: none;
+    }
+  }
+
+  @media only screen and (max-width: 768px) {
+    .logos__dash__right {
+        margin: 20px 0px;
+        height: 62px;
+    }
+  }
+
+  @media only screen and (max-width: 768px) {
+    .percent p {
+        font-size: 12px;
+    }
+  }
+
+  @media only screen and (max-width: 768px) {
+    .social__networks {
+        justify-content: center;
+        width: 100%;
+        margin-top: 40px;
+        margin-bottom: 20px;
+    }
+  }

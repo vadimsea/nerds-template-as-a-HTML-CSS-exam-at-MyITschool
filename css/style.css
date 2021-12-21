@@ -1,0 +1,318 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+sup {
+    font-size: 23px;
+}
+
+.wrap {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    background-color: #eeeeee;
+    width: 100%;
+}
+
+.header__wrapper {
+    background-color: #eeeeee;
+    max-width: 1160px;
+    margin: 0px auto;
+    padding-top: 50px;
+    
+}
+
+.menu {
+
+
+    
+}
+
+.top__logo {
+
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navig {
+
+
+    display: flex;
+}
+
+.navig ul li{
+    display: inline;
+    padding: 3px;
+    padding: 0 20px;
+}
+
+.basket{
+
+}
+
+.menu a{
+    text-transform: uppercase;
+    color: #000000;
+    font-family: sans-serif;
+    text-decoration: none;
+    font-size: 13pt;
+}
+
+.header__content{
+    width: 100%;
+
+
+    display: flex;
+}
+
+.header__text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.header__text h1{
+    font-family: sans-serif;
+    font-size: 45pt;
+}
+
+.header__text h3{
+    font-family: sans-serif;
+    font-size: 13pt;
+    font-weight: 500;
+    margin: 33px 0px;
+}
+
+.header__text button{
+    background-color: #fb565a;
+    color: #fff;
+    border: none;
+    padding: 15px 57px;
+    border-radius: 5px;
+    font-size: 13pt;
+    cursor: pointer;
+}
+
+.header__image {
+    width: 100%;
+}
+
+.main {
+    width: 100%;
+}
+
+.main__content {
+    max-width: 1160px;
+    margin: 0px auto;
+}
+
+.three {
+    margin-top: 80px;
+
+    display: grid;
+    grid-template-columns: 33.3% 33.3% 33.3%;
+}
+
+.three span{
+    width: 70%;
+    font-family: sans-serif;
+    font-size: 11pt;
+    margin: 25px 0px;
+    line-height: 23px;
+}
+
+.three h4{
+    font-family: sans-serif;
+    margin-top: 25px;
+}
+
+.three__one {
+    display: grid;
+}
+
+.three__two {
+    display: grid;
+}
+
+.three__three {
+    display: grid;
+}
+
+.three__one button{
+    background-color: #fb565a;
+    color: #fff;
+    border: none;
+    padding: 15px 47px;
+    border-radius: 5px;
+    font-size: 13pt;
+    cursor: pointer;
+}
+
+.three__two button{
+    background-color: #00ca74;
+    color: #fff;
+    border: none;
+    padding: 15px 47px;
+    border-radius: 5px;
+    font-size: 13pt;
+    cursor: pointer;
+}
+
+.three__three button{
+    background-color: #efc849;
+    color: #fff;
+    border: none;
+    padding: 15px 47px;
+    border-radius: 5px;
+    font-size: 13pt;
+    cursor: pointer;
+}
+
+.hr__style {
+    margin: 82px 0px;
+    border-top: 1px solid #eeeeee;
+}
+
+.about {
+
+
+    display: flex;
+}
+
+.we__are h2 {
+    font-family: sans-serif;
+    font-size: 35pt;
+}
+
+.about ul{
+    list-style-image: url('../images/dash.png');
+    list-style-position: inside;
+}
+
+.about ul li{
+    font-family: sans-serif;
+    font-size: 13pt;
+    font-weight: 500;
+    margin: 7px 0px;
+}
+
+.we__are p {
+    font-family: sans-serif;
+    font-size: 13pt;
+    font-weight: 500;
+    margin: 33px 0px;
+}
+
+.we__are hX {
+    font-family: sans-serif;
+    font-weight: 700;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+
+.about__right{
+
+
+    display: flex;
+    flex-direction: column;
+}
+
+.about__right h6 {
+    text-transform: uppercase;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 11pt;
+    margin: 15px 0px;
+}
+
+.percent{
+
+
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.percent span {
+    font-family: sans-serif;
+    font-size: 30pt;
+    font-weight: 600;
+}
+
+.percent p {
+    font-family: sans-serif;
+    font-size: 12pt;
+    margin-top: 12px;
+}
+
+.logos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logos__dash__right {
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.logos__dash__right::after {
+    content: url(../images/logo-divider.png);
+    float: right;
+}
+
+.logos__nodash__right {
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.map {
+    width: 100%;
+}
+
+.footer {
+    max-width: 1160px;
+    margin: 0 auto;
+    height: 218px;
+
+    display: flex;
+}
+
+.social__networks {
+    margin-right: 140px;
+
+    display: flex;
+    align-items: center;
+}
+
+.social__networks a:not(:last-child) {
+    margin-right: 12px;
+}
+
+.friendship {
+
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.friendship h4 {
+    font-size: 30px;
+    font-family: sans-serif;
+    margin-bottom: 12px;
+}
+
+.friendship span {
+    font-family: sans-serif;
+    font-size: 12pt;
+}
